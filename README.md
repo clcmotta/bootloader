@@ -1,0 +1,1 @@
+上电启动demo程序正常运行，如果串口收到OK。则进入bootloader程序，传入bin文件后重新运行demo程序

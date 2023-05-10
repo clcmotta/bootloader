@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+			"compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "name": "STM32",
+            "includePath": [
+                "E:/keil/ARM/ARMCC/**",
+                "${workspaceFolder}/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
+                "path": [
+                    "E:/keil/ARM/ARMCC/**",
+                    "${workspaceFolder}/**"
+                ]
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__CC_ARM",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_HD"
+            ],
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
